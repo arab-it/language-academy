@@ -1,0 +1,19 @@
+﻿include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - build/**
+    - android/**
+    - ios/**
+    - web/**
+    - windows/**
+    - macos/**
+    - linux/**
+    - _backups/**
+    - lib_backup_before_encoding_fix/**
+    - "**/*backup*"
+    - "**/*before*"
+
+linter:
+  rules:
+    # Add project-specific lint rules here if needed.
